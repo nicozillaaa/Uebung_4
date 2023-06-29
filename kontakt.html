@@ -14,39 +14,70 @@
         <a class="flex-sm-fill text-sm-center nav-link disabled" aria-current="page" href="kontakt.html">Kontakt</a>
       </nav>
     </header>
-    
     <main>
-      <h1>Kontakt</h1>
-      <p>Standort der Villa:</p>
-      <iframe class="map"
-      src="https://www.openstreetmap.org/export/embed.html?bbox=7.136349678039551%2C53.69009976315357%2C7.151455879211427%2C53.71550451998807&amp;layer=mapnik&amp;marker=53.7028040585925%2C7.143902778625488">
-      </iframe>
+      <h2>Kontakt</h2>
+
+      <div class="container">
+        <p>Standort der Villa:</p>
+        <div class="row">
+          <div class="column">
+            <iframe class="map"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=7.136349678039551%2C53.69009976315357%2C7.151455879211427%2C53.71550451998807&amp;layer=mapnik&amp;marker=53.7028040585925%2C7.143902778625488">
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="container">
+        <p>Kontaktformular:</p>
+        <div class="row">
+          <div class="column">
+            <div class="input-group">
+              <span class="input-group-text">Vor- und Nachname</span>
+              <input type="text" aria-label="First name" class="form-control">
+              <input type="text" aria-label="Last name" class="form-control">
+            </div>
+          </div>
+          <div class="column">
+            <br>
+            <div class="input-group">
+              <span class="input-group-text">Straße, Hausnr. PLZ</span>
+              <input type="text" aria-label="First name" class="form-control">
+              <input type="text" aria-label="Last name" class="form-control">
+              <input type="text" aria-label="Last name" class="form-control">
+            </div>
+          </div>
+          <div class="column">
+            <br>
+            <div class="input-group">
+              <span class="input-group-text">Buchungsanfrage (Zeitraum)</span>
+              <input type="text" aria-label="First name" class="form-control">
+            </div>
+          </div>
+          <div class="column">
+          <br>
+          <div class="input-group">
+            <div class="input-group mb-3">
+              <div class="input-group-text">
+                <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+              </div>
+              <span class="input-group-text">Ich habe die Datenschutzerklärungen gelesen.</span>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+
       <div class="contact">
-      <h2>Kontaktformular</h2>
       <br>
       <form>
-        <label>Vorname</label>
-        <input type="text" name="vorname">
-        <label>Nachname</label>
-        <input type="text" name="nachname">
-        <br><br>
-        <label>Straße</label>
-        <input type="text" name="straße">
-        <label>Hausnr.</label>
-        <input type="text" name="hausnummer">
-        <label>PLZ</label>
-        <input type="text" name="plz">
-        <br><br>
-        <label>Buchungszeitraum</label>
-        <input type="text" name="buchungszeitraum">
-        <br><br><br>
         <label>Reisen Sie mit Haustier?</label>
         <select>
           <option>Ja</option>
           <option>Nein</option>
         </select><br><br><br>
-        <label>Ich habe die Datenschutzerklärung gelesen.</label>
-        <input type=checkbox><br><br><br>
         <label>Anfrage</label>
         <input type=submit>
       </form>
